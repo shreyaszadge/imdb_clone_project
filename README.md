@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IMDb Clone Project
+
+This is a clone of the popular movie and TV show database website IMDb, built using Next.js.
+
+## Description
+
+This project aims to replicate the functionality and design of the IMDb website. It includes features such as browsing movies and TV shows, searching for specific titles, viewing details about individual titles, and more.
+
+## Features
+
+- Browse popular movies and TV shows
+- Search for movies and TV shows by title
+- View details about individual movies and TV shows
+- Responsive design for seamless usage across different devices
+
+## Screenshots
+*Screenshot of the homepage White Mode*
+
+![Homepage](public/1.png)
+![Homepage](public/2.png)
+
+
+*Screenshot of the homepage Dark Mode*
+
+![Homepage](public/3.png)
+![Homepage](public/4.png)
+
+
+## Technologies Used
+
+- Next.js
+- React.js
+- CSS (or SCSS, if applicable)
+- IMDb API (or any other movie database API used)
 
 ## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To get a local copy up and running follow these simple steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shreyaszadge/imdb_clone_project.git
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. cd imdb_clone_project
+3.npm install
+4.npm run dev
+   
