@@ -44,7 +44,9 @@ To get a local copy up and running follow these simple steps:
    ```sh
    git clone https://github.com/shreyaszadge/imdb_clone_project.git
 
-2. cd imdb_clone_project
-3.npm install
+2. cd imdb_clone_project 
+   
+3. npm install
+
 4.npm run dev
    
