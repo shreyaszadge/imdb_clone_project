@@ -1,9 +1,13 @@
 
 "use client" 
-const error = () => {
-  return (
-    <div>something went wrong</div>
-  )
-}
+import { Suspense } from 'react';
 
-export default error
+function MyComponent() {
+  const params = useSearchParams();
+
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+  Something went wrong
+    </Suspense>
+  );
+}
